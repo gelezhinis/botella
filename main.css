@@ -53,17 +53,15 @@ body {
   color: #4d4d49
 }
 
-.info button {
-  margin-top: 1rem;
-}
-
 #navigate-button {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
+  margin-top: 1rem;
   background-color: #2b2b29;
   border: 1px solid #2b2b29;
   border-radius: 6px;
   color: #fff;
+  font-size: 1rem;
 }
 
 #navigate-button:hover {
