@@ -33,7 +33,7 @@ body {
   width: calc(80vw/2);
   min-width: 300px;
   display: flex;
-  margin-bottom: -3rem;
+  margin-bottom: -4rem;
   justify-content: center;
   align-items: center;
 }
@@ -45,6 +45,7 @@ body {
 
 .info {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .info h1 {
@@ -68,6 +69,13 @@ body {
 #navigate-button:hover {
   cursor: pointer;
   background-color: #55554f;
+}
+
+
+@media (max-width: 1000px) {
+  .logos div {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 821px) {
