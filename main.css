@@ -33,6 +33,7 @@ body {
   width: calc(80vw/2);
   min-width: 300px;
   display: flex;
+  margin-bottom: -3rem;
   justify-content: center;
   align-items: center;
 }
