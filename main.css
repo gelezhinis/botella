@@ -56,9 +56,14 @@ body {
   font-size: clamp(1rem, 4vw + 1rem, 3rem);
 }
 
+.info p {
+  font-size: 1.2rem;
+}
+
 .info h1,
 .info h2,
-.info h3 {
+.info h3,
+.info p {
   color: #4d4d49;
 }
 
